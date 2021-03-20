@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CJp/4Z+SLzNe7mReV946NKhPuBU5+9qCKUtDdcLxnRx5EZa6qhhrIBs8RUsXz8x6H0zJsWUUzNNlBVk5FQcqig==",
+  "success": true,
+  "projectFilePath": "/Users/quinnchristensen/OneDrive - BYU/College/Junior Core/Winter 2021/IS 413 ~ Enterprise Application Development/Movies/Movies/Movies.csproj",
+  "expectedPackageFiles": [
+    "/Users/quinnchristensen/.nuget/packages/bootstrap/4.6.0/bootstrap.4.6.0.nupkg.sha512",
+    "/Users/quinnchristensen/.nuget/packages/jquery/3.0.0/jquery.3.0.0.nupkg.sha512",
+    "/Users/quinnchristensen/.nuget/packages/popper.js/1.16.1/popper.js.1.16.1.nupkg.sha512"
+  ],
+  "logs": []
+}

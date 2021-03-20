@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Add a Movie";
+}
+
+@model Movies.Models.AddMovie ;
+
+<!--This code creates a form object that is used to store information about movies-->
+
+<div class="masthead container d-flex align-items-center flex-column form-group">
+    <form asp-action="AddMovies" method="post">
+        <!--Category-->
+        <div>
+            <label asp-for="Category">Category: </label>
+            <input asp-for="Category"/>
+        </div>
+
+        <!--Title-->
+        <div>
+            <label asp-for="Title">Title: </label>
+            <input asp-for="Title"/>
+        </div>
+
+        <!--Year-->
+        <div>
+            <label asp-for="Year">Year: </label>
+            <input asp-for="Year"/>
+        </div>
+
+        <!--Director-->
+        <div>
+            <label asp-for="Director">Director: </label>
+            <input asp-for="Director"/>
+        </div>
+
+        <!--Rating-->
+        <div>
+            <label asp-for="Rating">Rating: </label>
+                <select asp-for="Rating">
+                    <option></option>
+                    <option>G</option>
+                    <option>PG</option>
+                    <option>PG-13</option>
+                    <option>R</option>
+                </select>
+        </div>
+
+        <!--Edited?-->
+        <div>
+            <label asp-for="Edited">Edited? </label>
+                <select asp-for="Edited">
+                    <option value="false">Select One</option>
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+                </select>
+        </div>
+
+        <!--Lent to-->
+        <div>
+            <label asp-for="LentTo">Lent To: </label>
+            <input asp-for="LentTo"/>
+        </div>
+
+        <!--Notes-->
+        <div>
+            <label asp-for="Notes">Notes: </label>
+            <input asp-for="Notes"/>
+        </div>
+
+        <!--Submit-->
+        <button type="submit">Submit Your Movie</button>
+
+        <div asp-validation-summary="All"></div>
+
+    </form>
+</div>

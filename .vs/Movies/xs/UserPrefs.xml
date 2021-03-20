@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{EA53F5EA-B2F8-4244-82D1-B8D51BA299A1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Movies/Models/ErrorViewModel.cs">
+    <Files>
+      <File FileName="Movies/Models/AddMovie.cs" Line="31" Column="6" />
+      <File FileName="Movies/Views/Home/Podcasts.cshtml" />
+      <File FileName="Movies/wwwroot/css/styles.css" Line="149" Column="18" />
+      <File FileName="Movies/Views/Home/AddMovies.cshtml" />
+      <File FileName="Movies/Views/Home/Confirmation.cshtml" />
+      <File FileName="Movies/Views/Home/Index.cshtml" />
+      <File FileName="Movies/Views/Home/ViewMovies.cshtml" />
+      <File FileName="Movies/Controllers/HomeController.cs" />
+      <File FileName="Movies/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Movies/Models/TempStorage.cs" />
+      <File FileName="Movies/Views/Shared/_Layout.cshtml" />
+      <File FileName="Movies/wwwroot/css/site.css" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Movies" expanded="True">
+            <Node name="Movies" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ErrorViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Movies PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
