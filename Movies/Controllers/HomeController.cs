@@ -28,33 +28,14 @@ namespace Movies.Controllers
             return View();
         }
 
-        [HttpGet]
         public IActionResult AddMovies()
         {
             return View();
         }
 
-        [HttpPost]
-        public IActionResult AddMovies(AddMovie appResponse)
-        {
-            //When attempting to POST form, checks to make sure the model attributes are valid
-
-            if (ModelState.IsValid)
-            {
-                TempStorage.AddFilm(appResponse);
-                return View("Confirmation", appResponse);
-            }
-            else
-            {
-                return View();
-            }
-        }
-
         public IActionResult ViewMovies()
         {
-            //Excludes any film with title "Independence Day" from being shown
-
-            return View(TempStorage.Movies.Where(films => films.Title != "Independence Day"));
+            return View();
         }
 
 

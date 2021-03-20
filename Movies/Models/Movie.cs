@@ -5,7 +5,7 @@ namespace Movies.Models
 {
     //Model for form on AddMovies.cshtml
 
-    public class AddMovie
+    public class Movie
     {
         [Required(ErrorMessage = "Please enter category.")]
         public string Category { get; set; }
@@ -22,7 +22,7 @@ namespace Movies.Models
         [Required(ErrorMessage = "Please enter rating")]
         public string Rating { get; set; }
 
-        public bool Edited { get; set; }
+        public bool Edited { get; set; } = false;
 
         public string LentTo { get; set; }
 
