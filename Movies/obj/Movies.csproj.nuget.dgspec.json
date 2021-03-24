@@ -14,7 +14,7 @@
         "outputPath": "/Users/quinnchristensen/OneDrive - BYU/College/Junior Core/Winter 2021/IS 413 ~ Enterprise Application Development/Movies/Movies/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/quinnchristensen/.nuget/NuGet/NuGet.Config"
+          "/Users/quinnchristensen/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
